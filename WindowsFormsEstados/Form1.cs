@@ -15,7 +15,12 @@ namespace WindowsFormsEstados
         public Form1()
         {
             InitializeComponent();
+            label7.Text = comboBox1.Items.Count.ToString();
+            label8.Text = comboBox2.Items.Count.ToString();
+            label9.Text = comboBox3.Items.Count.ToString();
+            label10.Text = comboBox4.Items.Count.ToString();
+            label11.Text = comboBox5.Items.Count.ToString();
+            label12.Text = comboBox6.Items.Count.ToString();
         }
-
     }
 }
